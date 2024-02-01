@@ -1,0 +1,19 @@
+/* Print the following Pattern in Output :
+******
+*
+*
+*
+******
+*/
+
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("******") // Print the first line
+    for i := 0; i < 3; i++ { // Print three lines with one asterisk each
+        fmt.Println("*")
+    }
+    fmt.Println("******") // Print the last line
+}

@@ -1,0 +1,18 @@
+Print the following Pattern in Output :
+******
+*    *
+*    *
+*    *
+******
+
+package main
+
+import "fmt"
+
+func main() {
+    // Define the pattern as a string
+    pattern := "******\n*    *\n*    *\n*    *\n******"
+    
+    // Print the pattern
+    fmt.Println(pattern)
+}
