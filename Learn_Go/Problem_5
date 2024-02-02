@@ -1,0 +1,14 @@
+Problem Description
+Print "Hello World !" in the output.
+
+package main
+
+import (
+    "fmt"
+)
+
+func main() {
+    
+    fmt.Println("Hello World !");
+
+}

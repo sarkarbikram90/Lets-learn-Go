@@ -1,0 +1,26 @@
+Problem Description
+
+Print the following pattern in output
+
+    *
+   **
+  ***
+ ****
+*****
+
+package main
+
+import (
+    
+    "fmt"
+    "strings"
+)
+
+func main() {
+    
+    for i := 1; i <= 5; i++{
+        fmt.Printf("%*s", 5, strings.Repeat("*", i))
+        fmt.Println()
+    }
+    
+}

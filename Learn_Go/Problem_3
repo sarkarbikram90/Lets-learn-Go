@@ -1,0 +1,20 @@
+Problem Description
+
+Print the following pattern in output
+
+*****  
+****  
+***  
+**  
+*
+
+package main
+
+import "fmt"
+import "strings"
+
+func main() {
+    for i := 5; i > 0; i-- {
+        fmt.Println(strings.Repeat("*", i))
+    }
+}

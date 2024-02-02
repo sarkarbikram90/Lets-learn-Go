@@ -1,0 +1,30 @@
+Problem Description
+Perform the following operations on 6 and 3 and print their respective outputs in different lines.
+
+package main
+
+import (
+    "fmt"
+)
+
+func main() {
+    // Define the numbers
+    num1 := 6
+    num2 := 3
+
+    // Perform addition
+    addition := num1 + num2
+    fmt.Println("Addition:", addition)
+
+    // Perform subtraction
+    subtraction := num1 - num2
+    fmt.Println("Subtraction:", subtraction)
+
+    // Perform multiplication
+    multiplication := num1 * num2
+    fmt.Println("Multiplication:", multiplication)
+
+    // Perform division
+    division := float64(num1) / float64(num2) // Convert to float for accurate division
+    fmt.Println("Division:", division)
+}
